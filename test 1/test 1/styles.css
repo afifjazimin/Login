@@ -1,0 +1,43 @@
+body
+{
+    font-family: 'poppins', sans-serif;
+    background-color: #ececec ;
+}
+
+
+
+
+/*---------------------------Login Container---------------------------*/
+
+.box-area {
+    width: 930px;
+}
+
+
+
+/*---------------------------Right Container---------------------------*/
+
+
+.right-box{
+    padding: 40px 30px 40px 40px;
+}
+
+
+
+
+/*---------------------------For Small Screens---------------------------*/
+
+@media only screen and (max-width: 768px){
+    .box-area{
+        margin: 0 10px;
+    }
+
+    .left-box{
+        height: 100px;
+        overflow: hidden;
+    }
+
+    .right-box{
+        padding: 20px;
+    }
+}
